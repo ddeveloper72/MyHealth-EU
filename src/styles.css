@@ -1,1 +1,69 @@
-/* You can add global styles to this file, and also import other style files */
+*,
+*::after,
+*::before {
+    /* capture any before and after pseudo-elements in universal selector */
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+  font-family: roboto, "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+h1,
+h2 {
+  text-transform: uppercase;
+}
+
+.spacer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.row {
+  max-width: 114rem;
+  margin: 0 auto;
+}
+
+.row:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+/* setup column grid */
+
+/* 1 gutter divided by 2 columns */
+.col-1-of-2 {
+  width: calc((100% - 6rem) / 2);
+}
+
+/* 2 gutters divided by 3 columns */
+.col-1-of-3 {
+  width: calc((100% - 26rem) / 3);
+}
+
+/* 2 od the 1-0f-3 columns + 1 gutter */
+.col-2-of-3 {
+  width: calc(2 * ((100% - 2 * 6rem) / 3) + 6rem);
+}
+
+/* 3 gutters divided by 4 columns */
+.col-1-of-4 {
+  width: calc((100% - 6rem) / 4);
+}
+
+/* 2 * the 1-of-4 column width + 1 gutter width */
+.col-2-of-4 {
+  width: calc(2 * ((100% - 3 * 6rem) / 4) + 6rem);
+}
+
+/* 3 * the 1-of-4 column + 2 times the gutter width */
+.col-3-of-4 {
+  width: calc(3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem);
+}

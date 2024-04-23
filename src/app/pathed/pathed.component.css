@@ -1,0 +1,35 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.space-above {
+  margin-top: 2em;
+}
+
+i {
+  font-size: 1.5em;
+  margin-left: 0.5em;
+}
+
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+mat-card {
+  background-color: inherit;
+  border: none;
+  box-shadow: none;
+  min-width: max-content
+}
+
+img {
+  display: block;
+  width: 25%;
+  height: auto;
+  margin-left: 0px;
+  justify-content: flex-start;
+}

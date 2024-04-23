@@ -1,0 +1,38 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+img {
+  display: block;
+  width: 50%;
+  height: auto;
+  margin-left: 0px;
+  justify-content: flex-start;
+}
+
+.mat-mdc-card {
+  background-color: inherit;
+  border: none;
+  box-shadow: none;
+}
+
+
+i {
+  font-size: 1em;
+  margin-left: 0.5em;
+}
+
+.indented-list {
+  list-style-position: inside;
+}
+
+.paragraph-list li {
+  list-style-type: disc;
+  margin-bottom: 2em;
+}
+
+.space-above {
+  margin-top: 2em;
+}

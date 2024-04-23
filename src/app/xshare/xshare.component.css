@@ -1,0 +1,57 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+mat-card-title-group,
+span,
+.mat-mdc-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-content: center;
+  align-items: center;
+  background-color: inherit;
+  border: none;
+  box-shadow: none;
+}
+
+/* mat-card {
+  background-color: inherit;
+  border: none;
+  box-shadow: none;
+  min-width: max-content
+} */
+
+img {
+  display: block;
+  width: 25%;
+  height: auto;
+  margin-left: 0px;
+  justify-content: flex-start;
+}
+
+i {
+  font-size: 1.5em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+.fa-linkedin {
+  color: #0077B5;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+.social-media-lists {
+  list-style: none;
+}
+
+.space-above {
+  margin-top: 2em;
+}

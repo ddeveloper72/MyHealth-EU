@@ -1,0 +1,102 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.features {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  width: min-content;
+}
+
+.feature-image {
+  width: auto;
+  max-width: 20em;
+  height: 10em;
+  padding-top: 0.2em;
+  cursor: pointer;
+}
+
+.feature-box {
+  position: relative;
+  flex-direction: column;
+  height: auto;
+  max-width: min-content;
+  background-color: rgb(201, 202, 211);
+  padding: 0.5em 0.5em;
+  margin: 1em;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: transform 0.3s;
+}
+
+.feature-box:hover {
+  transform: translateY(-1.5rem) scale(1.03);
+}
+
+.feature-info {
+  align-self: center;
+  min-height: 150px;
+}
+
+.feature-title {
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0.5em;
+}
+
+.feature-intro {
+  font-size: 0.8em;
+  text-align: left;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+}
+
+.feature-btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5em;
+  min-height: 20px;
+}
+
+.feature-redirect {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+}
+
+.feature-button {
+  display: flex;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.feature-button p {
+  font-size: 1.2em;
+}
+
+i {
+  font-size: 1.5em;
+  margin-left: 0.5em;
+}
+
+.space-above {
+  margin-top: 2em;
+}
