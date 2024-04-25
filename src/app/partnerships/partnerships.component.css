@@ -1,6 +1,4 @@
 .content {
-  display: flex;
-  flex-direction: column;
   padding: 2rem;
 }
 
@@ -19,9 +17,23 @@ img {
 
 .features {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  word-wrap: break-word;
   padding: 1rem;
-  width: min-content;
+}
+
+.feature-box {
+  position: relative;
+  height: auto;
+  width: 20.5em;
+  background-color: rgb(201, 202, 211);
+  padding: 0.5em 0.5em;
+  margin: 1em;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: transform 0.3s;
 }
 
 .feature-image {
@@ -32,19 +44,6 @@ img {
   cursor: pointer;
 }
 
-.feature-box {
-  position: relative;
-  flex-direction: column;
-  height: auto;
-  max-width: min-content;
-  background-color: rgb(201, 202, 211);
-  padding: 0.5em 0.5em;
-  margin: 1em;
-  margin-bottom: 20px;
-  border-radius: 5px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  transition: transform 0.3s;
-}
 
 .feature-box:hover {
   transform: translateY(-1.5rem) scale(1.03);
