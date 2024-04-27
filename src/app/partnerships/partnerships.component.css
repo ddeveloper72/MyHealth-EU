@@ -14,14 +14,35 @@ img {
 }
 
 .features {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  word-wrap: break-word;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
+  grid-gap: 1em;
+  justify-content: center;
   padding: 1rem;
 }
 
-.feature-box {
+@media screen and (max-width: 768px){
+  .features {
+    grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
+  }
+
+}
+
+@media screen and (max-width: 480px){
+  .features {
+    grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
+  }
+
+}
+
+@media screen and (max-width: 320px){
+  .features {
+    grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
+  }
+
+}
+
+.features > a {
   position: relative;
   height: auto;
   width: 20.5em;
