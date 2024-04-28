@@ -37,20 +37,6 @@ img {
   margin-right: auto;
 }
 
-.bob {
-  display: grid;
-  grid-auto-flow: column;
-  grid-column-gap: 10em;
-}
-
-/* .features {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  word-wrap: break-word;
-  padding: 1rem;
-} */
-
 
 .features {
   display: grid;
