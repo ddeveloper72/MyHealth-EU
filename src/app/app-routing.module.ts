@@ -10,6 +10,9 @@ import { PotentialComponent } from './potential/potential.component';
 import { XshareComponent } from './xshare/xshare.component';
 import { MyhealthComponent } from './myhealth/myhealth.component';
 import { MySiteComponent } from './my-site/my-site.component';
+import { UNICOMComponent } from './unicom/unicom.component';
+import { IPSComponent } from './ips/ips.component';
+import { IHEComponent } from './ihe/ihe.component';
 
 export const routes: Routes = [
   { path: 'myhealth', component: MyhealthComponent },
@@ -19,6 +22,9 @@ export const routes: Routes = [
   { path: 'partherships', component: PartnershipsComponent },
   { path: 'pathed', component: PathedComponent },
   { path: 'xshare', component: XshareComponent },
+  { path: 'ihe', component: IHEComponent },
+  { path: 'ips', component: IPSComponent },
+  { path: 'unicom', component: UNICOMComponent },
   { path: 'welcome', component: MySiteComponent },
   { path: '', redirectTo: '/welcome', pathMatch: 'full' },
 ];
