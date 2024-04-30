@@ -2,8 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-ips',
-  standalone: true,
-  imports: [],
+  standalone: false,
   templateUrl: './ips.component.html',
   styleUrl: './ips.component.css'
 })
