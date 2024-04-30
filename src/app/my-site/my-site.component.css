@@ -37,7 +37,6 @@ img {
   margin-right: auto;
 }
 
-
 .features {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
@@ -46,25 +45,22 @@ img {
   padding: 1rem;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   .features {
     grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
   }
-
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 480px) {
   .features {
     grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
   }
-
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 320px) {
   .features {
     grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
   }
-
 }
 
 .features > a {
@@ -81,7 +77,6 @@ img {
   transition: transform 0.3s;
 }
 
-
 .feature-image {
   object-fit: scale-down;
   width: 270px;
@@ -90,9 +85,7 @@ img {
   margin-right: auto;
   background-color: #ffffff;
   border-radius: 4px;
-
 }
-
 
 .features > a:hover {
   transform: translateY(-0.5em) scale(1.01);
@@ -148,9 +141,49 @@ i {
 }
 
 .fa-linkedin {
-  color: #0077B5;
+  color: #0077b5;
 }
 
 .space-above {
   margin-top: 2em;
+}
+
+.declaration-txt {
+  font-weight: 500;
+}
+
+.declaration-images {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+  grid-gap: 1em;
+  align-content: end;
+  padding: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .declaration-images {
+    grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+  }
+}
+@media screen and (max-width: 480px) {
+  .declaration-images {
+    grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .declaration-images {
+    grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+  }
+}
+
+
+.declaration-image {
+  object-fit: scale-down;
+  width: 270px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  background-color: #ffffff;
 }
