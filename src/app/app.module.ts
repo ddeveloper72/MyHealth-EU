@@ -4,11 +4,11 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { MySiteComponent } from './my-site/my-site.component';
-import { EtehrComponent } from './etehr/etehr.component';
-import { HpinnoticeComponent } from './hpinnotice/hpinnotice.component';
+import { EtEHRComponent } from './etehr/etehr.component';
+import { XtEHRComponent } from './xtehr/xtehr.component';
 import { PartnershipsComponent } from './partnerships/partnerships.component';
 import { PathedComponent } from './pathed/pathed.component';
-import { PinnoticeComponent } from './pinnotice/pinnotice.component';
+import { PotentialComponent } from './potential/potential.component';
 import { XshareComponent } from './xshare/xshare.component';
 import { MyhealthComponent } from './myhealth/myhealth.component';
 import { routes } from './app-routing.module';
@@ -38,11 +38,11 @@ import { MatCardImage } from '@angular/material/card';
   declarations: [
     AppComponent,
     MySiteComponent,
-    EtehrComponent,
-    HpinnoticeComponent,
+    EtEHRComponent,
+    XtEHRComponent,
     PartnershipsComponent,
     PathedComponent,
-    PinnoticeComponent,
+    PotentialComponent,
     XshareComponent,
     MyhealthComponent,
     NavlistComponent,
