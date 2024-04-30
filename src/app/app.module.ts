@@ -11,9 +11,12 @@ import { PathedComponent } from './pathed/pathed.component';
 import { PotentialComponent } from './potential/potential.component';
 import { XshareComponent } from './xshare/xshare.component';
 import { MyhealthComponent } from './myhealth/myhealth.component';
+import { NavlistComponent } from './navlist/navlist.component';
+import { IHEComponent } from './ihe/ihe.component';
+import { IPSComponent } from './ips/ips.component';
+import { UNICOMComponent } from './unicom/unicom.component';
 import { routes } from './app-routing.module';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
-import { NavlistComponent } from './navlist/navlist.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
@@ -46,6 +49,9 @@ import { MatCardImage } from '@angular/material/card';
     XshareComponent,
     MyhealthComponent,
     NavlistComponent,
+    IHEComponent,
+    IPSComponent,
+    UNICOMComponent,
   ],
   bootstrap: [AppComponent],
   providers: [provideAnimationsAsync()],
