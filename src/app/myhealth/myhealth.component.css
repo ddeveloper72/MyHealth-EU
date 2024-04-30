@@ -36,3 +36,8 @@ i {
 .space-above {
   margin-top: 2em;
 }
+
+a {
+  text-decoration: none;
+  color: black;
+}

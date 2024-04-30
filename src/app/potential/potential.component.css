@@ -23,6 +23,11 @@ li > span{
   font-weight: 500;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 mat-card {
   background-color: inherit;
   border: none;
