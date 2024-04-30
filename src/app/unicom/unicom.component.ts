@@ -2,8 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-unicom',
-  standalone: true,
-  imports: [],
+  standalone: false,
   templateUrl: './unicom.component.html',
   styleUrl: './unicom.component.css'
 })
