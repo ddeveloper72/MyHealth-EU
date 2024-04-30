@@ -73,3 +73,17 @@
 .declaration-txt {
   font-weight: 500;
 }
+
+mat-card {
+  background-color: inherit;
+  border: none;
+  box-shadow: none;
+  min-width: max-content
+}
+
+mat-card>img {
+  display: block;
+  width: 25%;
+  height: auto;
+  margin-left: 0px;
+}
