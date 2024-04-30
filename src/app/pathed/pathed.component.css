@@ -26,10 +26,9 @@ mat-card {
   min-width: max-content
 }
 
-img {
+mat-card>img {
   display: block;
   width: 25%;
   height: auto;
   margin-left: 0px;
-  justify-content: flex-start;
 }
