@@ -23,7 +23,7 @@
 
 @media screen and (max-width: 320px) {
   .title-container {
-    grid-template-columns: 1fr; 
+    grid-template-columns: 1fr;
   }
 }
 
@@ -42,28 +42,28 @@
 @media screen and (max-width: 768px) {
   .title-image {
     margin-bottom: 0;
-  }  
+  }
   .title_item {
     display: none;
-  } 
+  }
 }
 
 @media screen and (max-width: 480px) {
   .title-image {
     margin-bottom: 0;
-  } 
+  }
   .title_item {
     display: none;
-  } 
+  }
 }
 
 @media screen and (max-width: 320px) {
   .title-image {
     margin-bottom: 0;
-  }  
+  }
   .title_item {
     display: none;
-  } 
+  }
 }
 
 .paragraph-img,
@@ -97,3 +97,8 @@ a {
 .space-above {
   margin-top: 2em;
 }
+
+.declaration-txt {
+  font-weight: 500;
+}
+
