@@ -1,3 +1,24 @@
 .content {
   padding: 2rem;
 }
+
+ul {
+  list-style-type: disc;
+  margin-left: 2em;
+}
+
+.indented-list {
+  list-style-position: outside;
+}
+
+li > span{
+  font-weight:500;
+}
+
+.space-above {
+  margin-top: 2em;
+}
+
+.declaration-txt {
+  font-weight: 500;
+}
