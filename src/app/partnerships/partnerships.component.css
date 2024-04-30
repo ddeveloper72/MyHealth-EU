@@ -122,3 +122,7 @@ i {
 .space-above {
   margin-top: 2em;
 }
+
+.declaration-txt {
+  font-weight: 500;
+}	
