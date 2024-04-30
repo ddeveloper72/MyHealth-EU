@@ -24,8 +24,13 @@ i {
   margin-left: 0.5em;
 }
 
+ul {
+  list-style-type: disc;
+  margin-left: 1em;
+}
+
 .indented-list {
-  list-style-position: inside;
+  list-style-position: outside;
 }
 
 .paragraph-list li {
