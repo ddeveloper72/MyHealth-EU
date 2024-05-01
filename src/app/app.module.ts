@@ -28,7 +28,7 @@ import { MatCardImage } from '@angular/material/card';
 @NgModule({
   imports: [
     BrowserModule,
-    RouterModule.forRoot(routes),
+    RouterModule.forRoot(routes, { scrollPositionRestoration: 'enabled' }),
     AppRoutingModule,
     MatToolbarModule,
     MatButtonModule,

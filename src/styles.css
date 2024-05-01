@@ -1,13 +1,15 @@
 *,
 *::after,
 *::before {
-    /* capture any before and after pseudo-elements in universal selector */
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
+  /* capture any before and after pseudo-elements in universal selector */
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 
-body {
+body,
+p,
+li {
   font-family: roboto, "Helvetica Neue", sans-serif;
   margin: 0;
   padding: 0;
@@ -19,7 +21,7 @@ html {
 
 h1,
 h2 {
-  text-transform: uppercase;
+  font-weight: 600;
 }
 
 .spacer {
@@ -36,11 +38,17 @@ h2 {
   margin-bottom: 20px;
 }
 
-
-
 .mdc-list-item__primary-text {
   white-space: pre-line !important;
 }
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html,
+body {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
