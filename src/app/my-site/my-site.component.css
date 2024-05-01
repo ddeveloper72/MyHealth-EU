@@ -152,70 +152,46 @@ i {
   font-weight: 500;
 }
 
+.declaration-container {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+}
+
 .declaration-images {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
-  grid-gap: 1em;
-  align-content: end;
-  padding: 1rem;
+  flex-direction: row;
 }
 
-@media screen and (max-width: 768px) {
-  .declaration-images {
-    display: flex;
-    flex-direction: row;
-    margin: 0;
-    padding: 0;
-  }
-}
-@media screen and (max-width: 480px) {
-  .declaration-images {
-    display: flex;
-    flex-direction: row;
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .declaration-images {
-    display: flex;
-    flex-direction: row;
-    margin: 0;
-    padding: 0;
-  }
-}
-
-
-.declaration-image {
-  display: block;
-  object-fit: scale-down;
-  width: 270px;
-  height: 200px;
-  margin-left: auto;
+.declaration-images > img {
   margin-right: auto;
-  line-height: 0
-  font-size: 0;
-  background-color: #ffffff;
+  margin-left: auto;
+  width: 215px;
+  height: auto;
+  object-fit: cover;
+}
+
+.declaration-images > img:first-child {
+  margin-right: 11px;
+}
+
+.declaration-images > img:last-child {
+  margin-left: 11px;
 }
 
 @media screen and (max-width: 768px) {
-  .declaration-image {
-    width: 80px;
-    height: auto;
+  .declaration-images > img {
+    width: 150px;
   }
 }
 
 @media screen and (max-width: 480px) {
-  .declaration-image {
-    width: 80px;
-    height: auto;
+  .declaration-images > img {
+    width: 100px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .declaration-image {
+  .declaration-images > img {
     width: 80px;
-    height: auto;
   }
 }
