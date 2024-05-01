@@ -1,6 +1,4 @@
 .content {
-  display: flex;
-  flex-direction: column;
   padding: 2rem;
 }
 
@@ -9,7 +7,7 @@ img {
   width: 50%;
   height: auto;
   margin-left: 0px;
-  justify-content: flex-start;
+  justify-content: left;
 }
 
 .mat-mdc-card {
