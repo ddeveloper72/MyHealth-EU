@@ -27,15 +27,45 @@ ul ul {
   list-style: none;
 }
 
-.team-image {
-  width: 50%;
+.image-container {
+  display: flex;
+  margin-top: 1em;
 }
 
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.team-image img {
+  width: 60%;
+  height: auto;
 }
+
+@media screen and (max-width: 768px) {
+  .team-image img {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  .team-image img {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+  .team-image img {
+    width: 100%;
+  }
+
+}
+
+.team-info {
+  display: block;
+  font-size: 0.8em;
+  font-weight: 600;
+  margin-top: 0.5em;
+}
+
+
 
 .features {
   display: grid;
