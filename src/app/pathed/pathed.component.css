@@ -32,3 +32,47 @@ mat-card>img {
   height: auto;
   margin-left: 0px;
 }
+
+.declaration-container {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+}
+
+.declaration-images {
+  flex-direction: row;
+}
+
+.declaration-images > img {
+  margin-right: auto;
+  margin-left: auto;
+  width: 215px;
+  height: auto;
+  object-fit: cover;
+}
+
+.declaration-images > img:first-child {
+  margin-right: 11px;
+}
+
+.declaration-images > img:last-child {
+  margin-left: 11px;
+}
+
+@media screen and (max-width: 768px) {
+  .declaration-images > img {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .declaration-images > img {
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .declaration-images > img {
+    width: 80px;
+  }
+}
